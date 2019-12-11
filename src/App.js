@@ -10,8 +10,16 @@ function App() {
   return (
     <div className="App">
       <HashRouter>
-        <Route path="/" exact component={LandingPage} />
-        <Route path="/platform" exact component={TradingPlatform} />
+        <Route
+          path={process.env.PUBLIC_URL + "/"}
+          exact
+          component={LandingPage}
+        />
+        <Route
+          path={process.env.PUBLIC_URL + "/platform"}
+          exact
+          component={TradingPlatform}
+        />
       </HashRouter>
     </div>
   );

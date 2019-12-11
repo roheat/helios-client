@@ -34,7 +34,7 @@ export default class LandingPage extends Component {
                 <div className="site-header-inner">
                     <div className="brand header-brand">
                         <h1 className="m-0">
-                            <Link to={process.env.PUBLIC_URL + "/"}>
+                            <Link to="/">
 								<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
 									<title>Helios</title>
 								    <defs>
@@ -75,7 +75,7 @@ export default class LandingPage extends Component {
 	                        <p className="hero-paragraph">Helios is a Weather Futures Trading Platform built on top of the Ethereum blockchain.</p>
 							<div className="hero-form field field-grouped">
 								<div className="control">
-									<Link className="button button-primary button-block" to={process.env.PUBLIC_URL + "/platform"}>Get Started</Link>
+									<Link className="button button-primary button-block" to="/platform">Get Started</Link>
 								</div>
 							</div>
 						</div>
@@ -310,7 +310,7 @@ export default class LandingPage extends Component {
                             <p className="section-paragraph">Click the button below to visit the trading platform!</p>
                         </div>
                         <div className="row justify-content-center">
-                            <Link className="button button-primary button-block button-shadow" to={process.env.PUBLIC_URL + "/platform"}>Get Started</Link>
+                            <Link className="button button-primary button-block button-shadow" to="/platform">Get Started</Link>
                         </div>
                     </div>
                 </div>
