@@ -60,7 +60,7 @@ export default function Navbar() {
             </g>
           </g>
         </svg>
-        <h4 className="ml-2">Helios Trading Platform</h4>
+        <h4 className="ml-2 my-auto">Helios Trading Platform</h4>
       </Link>
       <div className="collapse navbar-collapse">
         <Link className="btn btn-outline-primary my-2 my-sm-0 ml-auto" to="/">
