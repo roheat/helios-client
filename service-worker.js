@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/helios-client/precache-manifest.fe86d5986f68a0456c599ccf267a85c6.js"
+  "/helios-client/precache-manifest.0f172c580984353580fba6fb44df1521.js"
 );
 
 self.addEventListener('message', (event) => {

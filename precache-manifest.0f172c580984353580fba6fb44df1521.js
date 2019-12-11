@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "790e5ddb3ede6bd1c88703873ee8cbc5",
+    "revision": "991b933d5250284bd91125dc46778dbc",
     "url": "/helios-client/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/helios-client/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "b0df73f38e0e26d72bd7",
+    "revision": "51e5f3a9faa16cb564b4",
     "url": "/helios-client/static/css/main.3f999912.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/helios-client/static/js/2.148f4b92.chunk.js.LICENSE"
   },
   {
-    "revision": "b0df73f38e0e26d72bd7",
-    "url": "/helios-client/static/js/main.26ac6c8d.chunk.js"
+    "revision": "51e5f3a9faa16cb564b4",
+    "url": "/helios-client/static/js/main.82c87e8d.chunk.js"
   },
   {
     "revision": "8140b7502bf1843d484b",
