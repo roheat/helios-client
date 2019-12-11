@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
 import "./styles.css";
 
 export default class LandingPage extends Component {
@@ -34,7 +33,7 @@ export default class LandingPage extends Component {
                 <div className="site-header-inner">
                     <div className="brand header-brand">
                         <h1 className="m-0">
-                            <Link to="/#/">
+                            <a href="/#">
 								<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
 									<title>Helios</title>
 								    <defs>
@@ -60,7 +59,7 @@ export default class LandingPage extends Component {
 								        </g>
 								    </g>
 								</svg>
-                            </Link>
+                            </a>
                         </h1>
                     </div>
                 </div>
@@ -75,7 +74,7 @@ export default class LandingPage extends Component {
 	                        <p className="hero-paragraph">Helios is a Weather Futures Trading Platform built on top of the Ethereum blockchain.</p>
 							<div className="hero-form field field-grouped">
 								<div className="control">
-									<Link className="button button-primary button-block" to="/#/platform">Get Started</Link>
+									<a className="button button-primary button-block" href="/#/platform">Get Started</a>
 								</div>
 							</div>
 						</div>
@@ -310,7 +309,7 @@ export default class LandingPage extends Component {
                             <p className="section-paragraph">Click the button below to visit the trading platform!</p>
                         </div>
                         <div className="row justify-content-center">
-                            <Link className="button button-primary button-block button-shadow" to="/#/platform">Get Started</Link>
+                            <a className="button button-primary button-block button-shadow" href="/#/platform">Get Started</a>
                         </div>
                     </div>
                 </div>
