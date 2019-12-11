@@ -9,9 +9,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Route path="/" exact component={LandingPage} />
-        <Route path="platform" exact component={TradingPlatform} />
+        <Route path="/platform" exact component={TradingPlatform} />
       </HashRouter>
     </div>
   );
