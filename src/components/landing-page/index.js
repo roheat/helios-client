@@ -60,7 +60,7 @@ export default class LandingPage extends Component {
 								        </g>
 								    </g>
 								</svg>
-                            </a>
+                            </Link>
                         </h1>
                     </div>
                 </div>
