@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <HashRouter>
         <Route path="/" exact component={LandingPage} />
-        <Route path="/platform" exact component={TradingPlatform} />
+        <Route path="platform" exact component={TradingPlatform} />
       </HashRouter>
     </div>
   );
