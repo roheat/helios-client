@@ -33,7 +33,7 @@ export default class LandingPage extends Component {
                 <div className="site-header-inner">
                     <div className="brand header-brand">
                         <h1 className="m-0">
-                            <a href="/#">
+                            <a href="/helios-client/#/">
 								<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
 									<title>Helios</title>
 								    <defs>
@@ -74,7 +74,7 @@ export default class LandingPage extends Component {
 	                        <p className="hero-paragraph">Helios is a Weather Futures Trading Platform built on top of the Ethereum blockchain.</p>
 							<div className="hero-form field field-grouped">
 								<div className="control">
-									<a className="button button-primary button-block" href="/#/platform">Get Started</a>
+									<a className="button button-primary button-block" href="/helios-client/#/platform">Get Started</a>
 								</div>
 							</div>
 						</div>
@@ -309,7 +309,7 @@ export default class LandingPage extends Component {
                             <p className="section-paragraph">Click the button below to visit the trading platform!</p>
                         </div>
                         <div className="row justify-content-center">
-                            <a className="button button-primary button-block button-shadow" href="/#/platform">Get Started</a>
+                            <a className="button button-primary button-block button-shadow" href="/helios-client/#/platform">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -319,7 +319,7 @@ export default class LandingPage extends Component {
             <div className="container">
                 <div className="site-footer-inner has-top-divider">
                     <div className="brand footer-brand">
-                        <a href="/">
+                        <a href="/helios-client/#/">
 							<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
 								<title>Helios</title>
 								<defs>
