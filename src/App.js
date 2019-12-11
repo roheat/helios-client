@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename="/helios-client">
         <Route
           path={process.env.PUBLIC_URL + "/"}
           exact
